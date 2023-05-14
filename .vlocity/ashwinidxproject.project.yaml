@@ -1,0 +1,38 @@
+Name: ashwinidxproject
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/CPQCreateOpportunity
+    - DataRaptor/CPQGetGroupsToCreateList
+    - DataRaptor/CPQGetProductsFromAssets
+    - DataRaptor/cpqGetRecordType
+    - DataRaptor/CreateOrderRequestData
+    - DataRaptor/CreateQuoteRequestData
+    - DataRaptor/GetAccountFromAsset
+    - DataRaptor/GetExistingAssetsFromOrderItem
+    - IntegrationProcedure/CPQ_CreateOrder
+    - IntegrationProcedure/CPQ_StartBulkCreateGroups
+    - OmniScript/CPQ_AssetViewerOrderFlow_Multi-Language
+    - OmniScript/CPQ_ChangeToOrder_Multi-Language
+    - OmniScript/CPQ_SingleMove_Multi-Language
+    - lwc/cfCpqAdvancedSearchLineItem
+    - lwc/cfCpqAssetSearch
+    - lwc/cfCpqAssetViewerAdvancedSearch
+    - lwc/cfCpqAssetViewerContainer
+    - lwc/cfCpqAssetViewerGroupLineItems
+    - lwc/cfCpqAssetViewerLineItem
+    - lwc/cfCpqAssetViewerSelectAllAssets
+    - lwc/cfCpqCartInlineChildPromoForAssetViewer
+    - lwc/cfCpqCartInlinePromoForAssetViewer
+    - lwc/cfCpqPromotionDetailViewForAssetViewer
+    - lwc/cfCpqSpinner
+    - profiles/Admin.profile
+    - lwc/cPQAssetViewerOrderFlowMultiLanguage
+    - lwc/cPQAssetViewerQuoteFlowMultiLanguage
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+    - VlocityCard
+SalesforceTypesToFetch:
+    - LightningComponentBundle
+    - Profile
